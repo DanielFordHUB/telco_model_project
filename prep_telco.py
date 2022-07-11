@@ -55,7 +55,7 @@ def prep_telco_data(df):
     
     # Concatenate dummy dataframe to original 
     df = pd.concat([df, dummy_df], axis=1)
-    
+
     # split the data
     train, validate, test = split_telco_data(df)
     
