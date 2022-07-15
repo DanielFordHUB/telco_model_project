@@ -7,7 +7,7 @@ Using Telco Data we will be doing an in depth expoloratory data analysis to disc
 ### Data Dictionary
 
 
-| Variable          | Meaning                                                   | values          |
+| Variable          | Meaning          |values          |
 
 | -----------       | -----------                                               | -----------     |
 
@@ -21,23 +21,13 @@ Using Telco Data we will be doing an in depth expoloratory data analysis to disc
 
 | dependents        | whether a customer has dependents                       | Yes, No         |
 
-| tenure_months     | # of months a customer has been with Telco (truncated)  | 1 - 72          |
-
-| tenure_quarters   | customer tenure in quarters (rounded up)                | 1 - 24          |
-
-| tenure_years      | customer tenure in years (rounded up)                   | 1 - 6           |
+| tenure            | # of months a customer has been with Telco (truncated)  | 1 - 72          |
 
 | phone_service     | whether a customer subscribes to phone service          | Yes, No                           |
 
 | multiple_lines    | whether a customer subscribes to multiple phone lines   | Yes, No, No phone service         |
 
 | online_security   | whether a customer subscribes to online security  | Yes, No, No internet service |
-
-| online_backup     | whether a customer subscribes to online backup  | Yes, No, No internet service  |
-
-| device_protection | whether a customer subscribes to device protection  | Yes, No, No internet service  |
-
-| tech_support      | whether a customer subscribes to tech support | Yes, No, No internet service  |
 
 | streaming_tv      | whether a customer subscribes to television streaming | Yes, No, No internet service  |
 
@@ -124,6 +114,8 @@ Attributes that contribute to customer churn:
 ## Next Steps
 
 With more time I would like to gather more data on regional and economic status, as well as test additional models with more features. with this additional time we should hopefully be able to increase our accuracy to an even higher amount.
+
+
 
 
 
